@@ -1,0 +1,11 @@
+
+*{ /*Todos elementos*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*mesmo tamanho*/
+    font-family: 'RobotoMono';
+}
+
+html, body{
+    height: 100%;
+}

@@ -1,0 +1,4 @@
+/*Arquivo para importar todos os arquivos css e servir como ponteiro para eles no html*/
+@import 'font.css';
+@import 'reset.css';
+@import 'login.css';
