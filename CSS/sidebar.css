@@ -11,31 +11,6 @@ nav{
     width: 300px;
     /*background-color: black;*/    
 }
-main{
-    display: block;
-    height: 100%;
-    background-color:#ccc;
-    width: calc(100% - 300px);
-    
-}
-.flex-dashboard header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    height: 90px;
-    background-color: white;
-    padding:10px 30px ;
-    border: 1px solid rgba(0, 0,0,.0625);
-
-}
-.flex-dashboard header a{
-    text-decoration: none;
-    color: #72777a;
-}
-.flex-dashboard header a > svg{
-    color: #6e8efb;
-}
 nav .sidebar-title{
     display: flex;
     flex-direction: column;
@@ -63,11 +38,29 @@ div .menu{
 }
 div .menu ul{
     list-style: none;
+}
+div .menu ul li{
+    padding: 20px 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+div.menu li svg{
+    color: #6e8efb;
+    font-size: 25px;
+}
+div.menu li a{
+    margin-left: 10px;
+    color: #72777a;
+    margin-left: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+   
 
 
 }
-div .menu li{
-    border: 1px solid red;
-    padding: 10px 20px;
-    
+div.menu li a:hover{
+    color: #4a4946;
 }
