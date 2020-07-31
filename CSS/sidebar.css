@@ -5,11 +5,11 @@ div.flex-dashboard{
     width: 100%;
 
 }
-nav.sidebar{
+nav{
     display: block;
     height: 100%;
     width: 300px;
-    background-color: black;
+    /*background-color: black;*/    
 }
 main{
     display: block;
@@ -26,7 +26,15 @@ main{
     height: 90px;
     background-color: white;
     padding:10px 30px ;
+    border: 1px solid rgba(0, 0,0,.0625);
 
+}
+.flex-dashboard header a{
+    text-decoration: none;
+    color: #72777a;
+}
+.flex-dashboard header a > svg{
+    color: #6e8efb;
 }
 nav .sidebar-title{
     display: flex;
@@ -35,6 +43,8 @@ nav .sidebar-title{
     align-items: center;
     padding: 10px 30px;
     height: 90px;
+    border: 1px solid rgba(0, 0,0,.0625);
+    border-right: 0;
 
 }
 nav .sidebar-title img{
@@ -46,4 +56,18 @@ nav .sidebar-title h2{
     font-size: 16px;
     margin-top: 8px;
 
+}
+div .menu{
+     border: 1px solid rgba(0, 0,0,.0625);
+     
+}
+div .menu ul{
+    list-style: none;
+
+
+}
+div .menu li{
+    border: 1px solid red;
+    padding: 10px 20px;
+    
 }
