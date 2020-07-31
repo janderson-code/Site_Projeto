@@ -1,7 +1,24 @@
 main{
     display: block;
     height: 100%;
-    background-color:#ccc;
+    background-color:#f5f4f2;
     width: calc(100% - 300px);
     
+}
+
+main .main-content{
+    padding: 30px;
+    width: 100%;
+    height: calc(100% -90px);
+    overflow-y:auto;
+
+}
+.main-content .painel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
 }
