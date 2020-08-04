@@ -33,6 +33,7 @@ nav .sidebar-title h2{
 
 }
 div .menu{
+     height: calc(100% - 90px);
      border: 1px solid rgba(0, 0,0,.0625);
      
 }
