@@ -34,7 +34,7 @@ main .main-content{
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color: #6e8efb;
 }
-.main-content .painel{
+ .panel{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,5 +42,29 @@ main .main-content{
     padding: 20px;
     border: 1px solid #ccc;
     margin: 10px 0;
+
+}
+.panel-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.panel-50{
+    width: 48%;
+}
+.panel-row button{
+    border: none;
+    height: 180px;
+    background: linear-gradient(135deg,#6eBefb,#a777e3);
+    font-size: 22px;
+    color: #fff;
+
+}
+.panel-row button:hover{
+    transform: scale(1.05);
+    transition: .2s;
 
 }
