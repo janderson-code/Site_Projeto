@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Dash</title>
         <link rel="stylesheet" href="../CSS/all.css">
-        <link rel="stylesheet" href="../Plugins/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet"href="../Plugins/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="../Plugins/fontawesome/css/all.min.css">
     </head>
     <body>
@@ -52,11 +52,15 @@
                 <header>
                     <a href="dashboard.html"><i class="fas fa-home"></i>Dashboard</a>
                     <a href="../index.html"><i class="fas fa-sign-out-alt"></i>Logout</a>
-                </header>   
+                </header>
                 <div class="main-content">
                     <div class="panel-row">
-                        <button class="panel-50" a-view="cadastrarPeso" onclick="fetchContent(this)" a-folder="peso">Cadastrar Peso</button>
-                        <button class="panel-50" a-view="visualizarPeso" a-folder="peso"onclick="fetchContent(this)">Vizualizar Peso</button>
+                        <button class="panel-50" a-view="cadastrarPeso"
+                            onclick="fetchContent(this)" a-folder="peso">Cadastrar
+                            Peso</button>
+                        <button class="panel-50" a-view="visualizarPeso"
+                            a-folder="peso" onclick="fetchContent(this)">Vizualizar
+                            Peso</button>
                     </div>
                     <div class="content" id="ajax-content">
 
@@ -66,5 +70,6 @@
         </div>
         <script src="../Plugins/bootstrap/js/bootstrap.min.js"></script>
         <script src="../Plugins/fontawesome/js/all.min.js"></script>
+        <script src="../JS/ajax.js"></script>
     </body>
 </html>
