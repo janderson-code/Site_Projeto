@@ -11,7 +11,6 @@ function fetchContent(el) {
       return html 
     })
     .then(html => {/*chamando a variavel html anterior */
-      console.log(html)
       content.innerHTML = html
     })
 }
