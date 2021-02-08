@@ -1,90 +1,89 @@
-.login{
-    height:100%;
+.login {
+    height: 100%;
     display: flex;
-    flex-direction:row;
-    
+    flex-direction: row;
 }
 
-.login-form{
+.login-form {
     width: 50%;
     height: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center;/*vertical*/
-    justify-content: center;/*horizontal*/
-
-
+    align-items: center;
+    /*vertical*/
+    justify-content: center;
+    /*horizontal*/
 }
-.banner-login{
+
+.banner-login {
     width: 50%;
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;/*Horizontal*/
-    justify-content: center;/*Vertical*/
-    background-color: rgb(176,196,222);
-
+    align-items: center;
+    /*Horizontal*/
+    justify-content: center;
+    /*Vertical*/
+    background-color: rgb(176, 196, 222);
 }
-.banner-login img{
+
+.banner-login img {
     position: relative;
     bottom: 40px;
 }
 
-.banner-login h2{
+.banner-login h2 {
     position: relative;
     bottom: 40px;
-
 }
-.login-form-wapper{
+
+.login-form-wapper {
     width: 100%;
     max-width: 400px;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     padding: 20px;
-
 }
-.login-form-wapper button{
+
+.login-form-wapper button {
     width: 100%;
-    background: linear-gradient(135deg,#6eBefb,#a777e3);
+    background: linear-gradient(135deg, #6eBefb, #a777e3);
     border: 1px solid #6eBefb;
     color: #fff;
     margin-top: 10px;
-
 }
-.login-form-wapper button:hover{
+
+.login-form-wapper button:hover {
     border: none;
     color: #fff;
     transform: scale(1.05);
     transition: .2s;
-
-
 }
-.login-title{
+
+.login-title {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
     padding: 10px 0px;
-
 }
 
-@media screen and (max-width:1280px){
-    .banner-login{
+@media screen and (max-width:1280px) {
+    .banner-login {
         width: 50%;
         padding: 0px 2%;
     }
-
-    .banner-login img{
+    .banner-login img {
         max-width: 400px;
     }
 }
-@media screen and (max-width: 875px){
-    .banner-login{
+
+@media screen and (max-width: 875px) {
+    .banner-login {
         display: none;
     }
-
-    .login-form{
+    .login-form {
         width: 100%;
     }
 }
