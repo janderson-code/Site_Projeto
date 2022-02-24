@@ -16,6 +16,6 @@ Site bootstrap : https://getbootstrap.com/<br>
 
 ![image](https://user-images.githubusercontent.com/62726160/155589895-59dd5df4-07eb-4d9a-9f28-2c194adac045.png)
 
-<h2>Página GERENCIAR PESO E ALTURA </h2><hr>
+<h2>Página para Gerenciar Peso e Altura </h2><hr>
 
 ![image](https://user-images.githubusercontent.com/62726160/155590503-f42244dc-bf0b-44c5-bbc8-e374552c3eb0.png)
